@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Pen",
+        "price": 1.50,
+        "description": "Smooth writing ballpoint pen.",
+        "image": "./images/pen.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Pencil",
+        "price": 0.75,
+        "description": "High-quality HB pencil.",
+        "image": "./images/pencil.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Marker",
+        "price": 2.00,
+        "description": "Permanent marker for all surfaces.",
+        "image": "./images/marker.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Eraser",
+        "price": 0.50,
+        "description": "Non-smudge soft eraser.",
+        "image": "./images/eraser.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Notebook",
+        "price": 3.00,
+        "description": "100-page spiral notebook.",
+        "image": "./images/notebook.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Geometry Box",
+        "price": 5.00,
+        "description": "Complete set for geometry projects.",
+        "image": "./images/geometry-box.jpg"
+    }
+]

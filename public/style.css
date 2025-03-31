@@ -1,0 +1,149 @@
+/* General Styling */
+body {
+    font-family: cursive, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #e0e37f;
+}
+
+h2 {
+    color: #444;
+    text-align: center;
+}
+
+/* Link Styling */
+a {
+    color: #777;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+/* Button Styling */
+button {
+    background-color: #777;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Product List Styling */
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+#product-list div {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#product-list img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Header Styling */
+header {
+    background-color: #555;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #ccc;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    padding: 40px;
+    background-color: #fff;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+#products-section{
+    text-align: center;
+}
+
+.hero-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+/* Contact Form Styling */
+.contact-form {
+    font-family: cursive, Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+    font-family: cursive, Arial, sans-serif;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.contact-form button {
+    background-color: #777;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
